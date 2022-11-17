@@ -1,0 +1,12 @@
+name: LifePvEAssist
+version: '${project.version}'
+main: azuazu3939.lifepveassist.LifePvEAssist
+api-version: 1.15
+
+commands:
+  takeitem:
+    permission: lifepveassist.command.takeitem
+    description: "Playerから特定Itemを特定個数減らすコマンド。"
+  lpa:
+    permission: lifepveassist.command.reload
+    description: "LifePvEAssistのreloadコマンド。"
